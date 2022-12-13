@@ -1,5 +1,5 @@
 #customization gearmand, requires mariadb - DGI
 .include /usr/lib/systemd/system/gearmand.service
 [Unit]
-After=mariadb.service
-Requires=mariadb.service
+#After=mariadb.service
+#Requires=mariadb.service
